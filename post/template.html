@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="he"><head><meta charset="utf-8">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1080px;height:1080px;font-family:"Open Sans",sans-serif;direction:rtl;background:#0B1E3F;color:#fff;overflow:hidden;position:relative}
+.bg{position:absolute;inset:0;background:radial-gradient(circle at 85% 10%,rgba(34,197,94,.25),transparent 40%),radial-gradient(circle at 10% 60%,rgba(43,44,118,.9),transparent 55%)}
+.wrap{position:relative;padding:44px 64px 0}
+.kicker{display:inline-block;background:#FACC15;color:#0B1E3F;font-weight:800;font-size:26px;padding:8px 22px;border-radius:40px}
+h1{font-size:56px;font-weight:800;line-height:1.12;margin-top:18px}
+h1 em{font-style:normal;color:#22C55E}
+.sub{font-size:28px;color:#cbd5e1;margin-top:12px}
+.cards{margin-top:26px;display:flex;flex-direction:column;gap:14px}
+.card{display:flex;align-items:center;gap:22px;background:rgba(255,255,255,.07);border:2px solid rgba(255,255,255,.14);border-radius:22px;padding:14px 24px}
+.num{flex:none;width:64px;height:64px;border-radius:50%;background:#22C55E;color:#0B1E3F;font-weight:800;font-size:34px;display:flex;align-items:center;justify-content:center}
+.txt{flex:1}
+.badge{display:inline-block;font-size:20px;font-weight:800;padding:3px 14px;border-radius:8px;color:#fff;direction:ltr}
+.t{font-size:32px;font-weight:800;margin-top:6px}
+.d{font-size:23px;color:#cbd5e1;margin-top:2px}
+.warn{margin-top:16px;background:#FACC15;color:#0B1E3F;border-radius:14px;padding:12px 22px;font-size:23px;font-weight:700}
+.brand{position:absolute;bottom:0;left:0;right:0;height:140px;background:#fff;display:flex;align-items:center;justify-content:space-between;padding:0 64px;color:#2B2C76}
+.brand .r b{font-size:38px;font-weight:800;display:block}
+.brand .r span{font-size:23px;color:#334155}
+.brand .r .url{font-size:22px;color:#0B6B57;font-weight:700;direction:ltr;display:inline-block}
+.brand img{height:110px}
+</style></head><body>
+<div class="bg"></div>
+<div class="wrap">
+  <div class="kicker">{{KICKER}}</div>
+  <h1>{{HEADLINE}}</h1>
+  <div class="sub">{{SUBTITLE}}</div>
+  <div class="cards">
+    {{CARDS}}
+  </div>
+  <div class="warn">⚠️ {{CAVEAT}}</div>
+</div>
+<div class="brand">
+  <div class="r"><b>כרמל הדרכה</b><span>סדנאות Copilot, Excel ו-Power BI לארגונים</span><br><span class="url">ctraining.co.il</span></div>
+  <img src="data:image/png;base64,{{LOGO}}">
+</div>
+</body></html>

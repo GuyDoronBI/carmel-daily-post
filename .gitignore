@@ -1,0 +1,6 @@
+states/
+work/
+*.mp4
+still_*.png
+post_test.png
+__pycache__/

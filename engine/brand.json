@@ -1,0 +1,28 @@
+{
+  "_הסבר": "קובץ המיתוג של הסרטון. כדי לייצר סרטון במיתוג אחר: מעתיקים את התיקייה הזאת לתיקייה חדשה ליד (למשל מיתוג\\guy), מחליפים את logo.svg ואת הערכים כאן, ומריצים את הבנייה עם שם התיקייה החדשה.",
+  "name": "כרמל הדרכה",
+  "logo": "logo.svg",
+  "logo_on_dark": "white-plate",
+  "font": "Heebo",
+  "colors": {
+    "bg_dark": "#0B3D3A",
+    "bg_mid": "#066758",
+    "bg_deep": "#2B2C76",
+    "accent": "#8DC63F",
+    "highlight": "#FFDE17",
+    "alert": "#FF5A5F",
+    "ok": "#8DC63F",
+    "pill_bg": "#16224F",
+    "card_title": "#2B2C76",
+    "card_text": "#3A4A5A",
+    "text": "#FFFFFF"
+  },
+  "end_card": {
+    "tagline": "ניתוח נתונים חכם באקסל",
+    "download": "הקובץ להורדה חינם · הקישור בתיאור",
+    "contact_lines": [
+      "ctraining.co.il",
+      "info@ctraining.co.il  |  077-2007445"
+    ]
+  }
+}
